@@ -42,23 +42,19 @@ public class Main {
 	
 	public static void main(String[] args) {
 		try {
-			//aaaa
-			System.out.println("Capturing...");
+		    System.out.println("Capturing...");
 			 
-			Thread.sleep(2000);
+		    Thread.sleep(2000);
 			
-			RPiCamera piCamera = new RPiCamera("/home/pi/appcenterTest/Pictures");
+		    RPiCamera piCamera = new RPiCamera("/home/pi/appcenterTest/Pictures");
 			
-			piCamera.setWidth(640).setHeight(480)
-		    .setBrightness(50)                // Adjust Camera's brightness setting.
-		    .setDRC(DRC.OFF)
-		    .setExposure(Exposure.AUTO)       // Set Camera's exposure.
-		    .setQuality(75)
-		    .setTimeout(2)                    // Set Camera's timeout.
-		    .setAddRawBayer(true);
-			
-			//piCamera.takeStill("capture.jpg");
-			
+		    piCamera.setWidth(640).setHeight(480)
+		    	.setBrightness(50)                // Adjust Camera's brightness setting.
+		    	.setDRC(DRC.OFF)
+		    	.setExposure(Exposure.AUTO)       // Set Camera's exposure.
+		    	.setQuality(75)
+		    	.setTimeout(2)                    // Set Camera's timeout.
+		    	.setAddRawBayer(true);	
 			
 			BufferedImage image = ImageIO.read(piCamera.takeStill("capture.jpg"));
 			
