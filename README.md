@@ -12,4 +12,4 @@ The structure of the program is as follows.
 
 If you are looking for documentation on the Jrpicam library, check the link below.
 
-?https://github.com/Hopding/JRPiCam/wiki
+> https://github.com/Hopding/JRPiCam/wiki
