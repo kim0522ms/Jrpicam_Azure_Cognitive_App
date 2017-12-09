@@ -11,4 +11,4 @@ The structure of the program is as follows.
 (Because the maximum supportable size of the API is 4MB).
 
 If you are looking for documentation on the Jrpicam library, check the link below.
-[JRPiCam Wiki]: https://github.com/Hopding/JRPiCam/wiki
+JRPiCam Wiki: https://github.com/Hopding/JRPiCam/wiki
