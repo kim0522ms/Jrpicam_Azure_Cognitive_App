@@ -8,8 +8,7 @@ In addition, the extracted text data is sent in HTTP POST format, so Web Server 
 The structure of the program is as follows.
 1. Use the library to get a snapshot of Picamera.
 2. Compress the image to transfer files to the Azure Computer Vision API.
-
 (Because the maximum supportable size of the API is 4MB).
 
 If you are looking for documentation on the Jrpicam library, check the link below.
->https://github.com/Hopding/JRPiCam/wiki
+[JRPiCam Wiki]: https://github.com/Hopding/JRPiCam/wiki
