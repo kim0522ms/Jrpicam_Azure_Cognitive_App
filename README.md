@@ -2,6 +2,4 @@
 
 This program extracts text from photos taken using Picamera of Raspberry pi and sends it to Server.
 
-
-This program use Azure Cognitive Service And Jrpicam Library.
-You need to create Azure computer vision API in your Azure Subscription.
+Before using this program, you need the Azure subscription and the Computer Vision API.
