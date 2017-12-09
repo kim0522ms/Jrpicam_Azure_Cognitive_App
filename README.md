@@ -1,4 +1,4 @@
-# Jrpicam_Azure_Cognitive_App
+# Jrpicam_Azure_Cognitive_App (OCR)
 
 This program extracts text from photos taken using Picamera of Raspberry pi and sends it to Server.
 
