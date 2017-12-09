@@ -131,18 +131,12 @@ public class Main {
                 String jsonString = EntityUtils.toString(entity);
                 JSONObject json = new JSONObject(jsonString);
                 
-                JSONArray jsonArr = new JSONArray();
-                jsonArr.put("35.166219");
-                jsonArr.put("128.998042");
-                
-                json.put("coordinate", jsonArr);
-                
                 System.out.println("REST Response:\n");
                 System.out.println(json.toString(2));
                 
-                HttpClient json_httpClient = HttpClientBuilder.create().build(); //Use this instead
+                HttpClient json_httpClient = HttpClientBuilder.create().build();
                 
-                HttpPost json_request = new HttpPost("https://webapp-sillaserver.azurewebsites.net/op/JSON");
+                HttpPost json_request = new HttpPost("<Your Web Server's Address");
                 
                 StringEntity params =new StringEntity(json.toString());
                 json_request.addHeader("content-type", "application/json");
